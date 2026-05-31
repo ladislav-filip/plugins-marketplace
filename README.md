@@ -36,6 +36,18 @@ V Claude Code:
 
 Dostupné pluginy zobrazíte přes `/plugin` nebo v [`.claude-plugin/marketplace.json`](.claude-plugin/marketplace.json).
 
+### Odinstalace pluginu
+
+```
+/plugin uninstall example-hello-world
+```
+
+Chcete-li odebrat i samotný marketplace (zdrojový repozitář), spusťte:
+
+```
+/plugin marketplace remove fullsys-plugins
+```
+
 ### Ověření funkčnosti
 
 Po instalaci `example-hello-world` napište `hello world` — skill zobrazí diagnostické informace.
