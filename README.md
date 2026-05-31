@@ -7,6 +7,15 @@ Interní katalog Claude Code pluginů Fullsys — **skills** a **MCP servery**, 
 > Pluginy se distribuují **nativně přes Git** — žádné `.plugin` ZIP archivy ani build/release krok.
 > Přidáte ho přes `/plugin marketplace add` a instalujete přes `/plugin install`.
 
+## Dostupné pluginy
+
+| Plugin | Typ | Popis |
+|---|---|---|
+| [docs-architect](plugins/docs-architect/) | skill | Tvorba a údržba technické dokumentace repozitáře (README, CONTRIBUTING, CHANGELOG, API spec, architektura) |
+| [youtrack-fullsys](plugins/youtrack-fullsys/) | MCP | Napojení na interní YouTrack Fullsys — tickety, projekty, boardy, knowledge base |
+| [example-hello-world](plugins/example-hello-world/) | skill | Ukázkový plugin demonstrující strukturu marketplace repozitáře |
+| [example-mcp](plugins/example-mcp/) | MCP | Ukázkový plugin demonstrující distribuci konfigurace MCP serveru |
+
 ## Co obsahuje
 
 | Typ artefaktu | Popis |
